@@ -1,6 +1,6 @@
 # SKSmtp
 
-[基于IMB-Swift](https://github.com/IBM-Swift/Swift-SMTP)
+[基于IBM-Swift](https://github.com/IBM-Swift/Swift-SMTP)
 
 注册smtp服务
 ```
