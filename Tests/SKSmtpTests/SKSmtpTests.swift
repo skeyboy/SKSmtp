@@ -6,7 +6,7 @@ final class SKSmtpTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SKSmtp().text, "Hello, World!")
+//        XCTAssertEqual(SKSmtp(config: <#SKSmtpConfig#>), "Hello, World!")
     }
 
     static var allTests = [

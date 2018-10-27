@@ -14,7 +14,7 @@ public typealias Progress = ((Mail, Error?) -> Void)?
 
 public class SKSmtp : Service {
     fileprivate var smtp: SMTP?
-    init(config: SKSmtpConfig) {
+  public  init(config: SKSmtpConfig) {
         self.smtp = SMTP.init(hostname: config.hostname, email: config.email, password: config.password, port: config.port, useTLS: config.useTLS, tlsConfiguration: config.tlsConfiguration, authMethods:config.authMethods, domainName: config.domainName, timeout: config.timeout)
     }
     

@@ -19,7 +19,7 @@ public struct SKSmtpConfig : Service{
     var authMethods:[ AuthMethod] = []
     var domainName: String  = "localhost"
     var timeout: UInt = 10
-    init(hostname: String, email: String, password: String, port: Int32 = 465, useTLS:Bool = false,tlsConfiguration:SwiftSMTP.TLSConfiguration? = nil, authMethods:[ AuthMethod] = [], domainName: String  = "localhost", timeout: UInt = 10) {
+  public  init(hostname: String, email: String, password: String, port: Int32 = 465, useTLS:Bool = false,tlsConfiguration:SwiftSMTP.TLSConfiguration? = nil, authMethods:[ AuthMethod] = [], domainName: String  = "localhost", timeout: UInt = 10) {
         self.hostname = hostname
         self.email = email
         self.password = password
