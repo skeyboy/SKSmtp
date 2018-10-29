@@ -13,6 +13,8 @@ import SSLService
 
  
 public class SKSmtpProvider: Provider {
+    public init(){}
+
     public func register(_ services: inout Services) throws {
         
         services.register { (container) -> SKSmtp in
